@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy 17th Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .container {
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .btn {
+      background: #fff;
+      color: #ff69b4;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      background-color: #ffe1ec;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .footer {
+      margin-top: 80px;
+      font-size: 1em;
+      color: #fff;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy 17th Birthday! 🎂</h1>
+    <p>Seventeen looks amazing on you! Wishing you joy, love, and unforgettable memories today and always. 💖</p>
+
+    <button class="btn" onclick="alert('May your 17th year be filled with beautiful moments and dreams coming true! ✨')">
+      Wish 1
+    </button>
+
+    <button class="btn" onclick="alert('You’ve grown into someone truly wonderful — keep shining and keep being you! 🌟')">
+      Wish 2
+    </button>
+
+    <button class="btn" onclick="alert('Here’s to your 17th year: full of happiness, surprises, and sweet adventures! 🎁')">
+      Wish 3
+    </button>
+
+    <div class="footer">Created with love 💕 just for your 17th</div>
+  </div>
+</body>
+</html>
